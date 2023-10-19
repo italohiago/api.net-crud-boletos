@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xEcC2lw/Lqq9aL1/HfR6EDXeZAA+HGqPe4zuEqb8YtvOOKr3W1p8Du1sX/xfMwvFQ3wChwshNfHE74sML1WNzQ==",
+  "dgSpecHash": "sQInrdPrALAG1m4LNriMd/mRFyHHALFOjAzW3Hu2OfsE20k7XF0iPvhmpsYgpDX/xJs6BNPiRP5DvVH7WA3tBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\italo\\OneDrive\\Documents\\Italo\\projetos\\CRUD-BOLETOS\\boletos-banco\\boletos-banco.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\italo\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\italo\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
