@@ -9,26 +9,27 @@ namespace boletos_banco.Data.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome do pagador é obrigatório.")]
-        public string NomePagador { get; set; } = string.Empty;
+        public string NomePagador { get; set; }
 
         [Required(ErrorMessage = "O CPF/CNPJ do pagador é obrigatório.")]
-        public string CPFCNPJPagador { get; set; } = string.Empty;
+        public string CPFCNPJPagador { get; set; }
 
         [Required(ErrorMessage = "O nome do beneficiário é obrigatório.")]
-        public string NomeBeneficiario { get; set; } = string.Empty;
+        public string NomeBeneficiario { get; set; }
 
         [Required(ErrorMessage = "O CPF/CNPJ do beneficiário é obrigatório.")]
-        public string CPFCNPJBeneficiario { get; set; } = string.Empty;
+        public string CPFCNPJBeneficiario { get; set; }
 
         [Required(ErrorMessage = "O valor é obrigatório.")]
-        public decimal Valor { get; set; } = 0.0m; 
+        [Range(0.01, double.MaxValue, ErrorMessage = "O valor deve ser maior que zero.")]
+        public decimal Valor { get; set; }
 
         [Required(ErrorMessage = "A data de vencimento é obrigatória.")]
-        public DateTime DataVencimento { get; set; } = DateTime.MinValue;
+        public DateTime? DataVencimento { get; set; }
 
-        public string Observacao { get; set; } = string.Empty;
+        public string? Observacao { get; set; }
 
         [Required(ErrorMessage = "O banco é obrigatório.")]
-        public int BancoId { get; set; } = 0;
+        public int? BancoId { get; set; }
     }
 }

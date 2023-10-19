@@ -36,8 +36,7 @@ namespace boletos_banco.Controllers
             }
 
             try
-            {
-                boleto.DataVencimento = boleto.DataVencimento.ToUniversalTime();
+            {                
                 _context.Boletos.Add(boleto);
                 await _context.SaveChangesAsync();
 
