@@ -39,7 +39,7 @@ namespace boletos_banco.Migrations
                     CPFCNPJBeneficiario = table.Column<string>(type: "text", nullable: false),
                     Valor = table.Column<decimal>(type: "numeric", nullable: false),
                     DataVencimento = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Observacao = table.Column<string>(type: "text", nullable: false),
+                    Observacao = table.Column<string>(type: "text", nullable: true),
                     BancoId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

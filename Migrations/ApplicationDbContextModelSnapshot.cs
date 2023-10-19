@@ -77,7 +77,6 @@ namespace boletos_banco.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Observacao")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<decimal>("Valor")
