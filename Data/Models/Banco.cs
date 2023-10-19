@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace NomeDoProjeto.Models
+namespace boletos_banco.Data.Models
 {
     public class Banco
     {
@@ -8,12 +8,12 @@ namespace NomeDoProjeto.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome do banco é obrigatório.")]
-        public string NomeBanco { get; set; }
+        public string NomeBanco { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "O código do banco é obrigatório.")]
-        public string CodigoBanco { get; set; }
+        public string CodigoBanco { get; set; } = string.Empty;
 
-        [Required](ErrorMessage = "O percentual de juros é obrigatório.")
-        public decimal PercentualJuros { get; set; }
+        [Required(ErrorMessage = "O percentual de juros é obrigatório.")]
+        public decimal PercentualJuros { get; set; } = 0.0m; 
     }
 }
