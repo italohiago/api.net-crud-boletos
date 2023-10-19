@@ -7,13 +7,13 @@ namespace NomeDoProjeto.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O nome do banco é obrigatório.")]
         public string NomeBanco { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O código do banco é obrigatório.")]
         public string CodigoBanco { get; set; }
 
-        [Required]
+        [Required](ErrorMessage = "O percentual de juros é obrigatório.")
         public decimal PercentualJuros { get; set; }
     }
 }
